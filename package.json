@@ -1,0 +1,24 @@
+{
+  "name": "deltahacks6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ejs",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+	"start:dev": "npx babel --watch src --out-dir build --presets react-app/prod & npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyIlersich/deltahacks6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyIlersich/deltahacks6/issues"
+  },
+  "homepage": "https://github.com/TonyIlersich/deltahacks6#readme",
+  "keywords": []
+}
